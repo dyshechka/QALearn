@@ -1,0 +1,8 @@
+:stylesheet: styles.css
+= AsciiDoctor example
+
+${include("_header.adoc", always_embed=True, leveloffset=None)}
+
+[${include("part1/links.adoc")}]
+[${include("part2/links.adoc")}]
+[${include("documentation.adoc")}]

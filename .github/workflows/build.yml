@@ -1,0 +1,45 @@
+name: Build documentation
+
+on:
+  push:
+    paths:
+      - '.github/workflows/build.yml'
+      - 'docs/**'
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Install asciidoctor
+        run: |
+          sudo apt-get install asciidoctor
+
+      - name: Install asciidoxy
+        run: |
+          pip3 install asciidoxy
+
+      - name: Copy resources
+        run: |
+          mkdir ./public
+          cp -r ./docs/resources ./public/images/
+
+      - name: Build
+        run: |
+          asciidoxy --base-dir docs --destination-dir ./public --multipage ./docs/index.adoc
+
+      - name: Deploy docs to ghpages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_branch: gh-pages
+          publish_dir: ./public
