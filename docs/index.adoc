@@ -3,6 +3,6 @@
 
 ${include("_header.adoc", always_embed=True, leveloffset=None)}
 
-[${include("part1/links.adoc")}]
-[${include("part2/links.adoc")}]
+[${include("Beginners/index.adoc")}]
+[${include("Postman/index.adoc")}]
 [${include("documentation.adoc")}]

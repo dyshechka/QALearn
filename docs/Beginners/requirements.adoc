@@ -1,0 +1,6 @@
+:stylesheet: ../styles.css
+= Требования к ПО и их анализу
+
+${include("../_header.adoc", always_embed=True, leveloffset=None)}
+
+Some content

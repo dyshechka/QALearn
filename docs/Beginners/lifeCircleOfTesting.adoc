@@ -1,5 +1,5 @@
 :stylesheet: ../styles.css
-= Part 2 | Topic 2
+= Жизненный цикл тестирования программного обеспечения
 
 ${include("../_header.adoc", always_embed=True, leveloffset=None)}
 

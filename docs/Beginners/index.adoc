@@ -1,0 +1,32 @@
+:stylesheet: ../styles.css
+= QA для начинающих
+
+${include("../_header.adoc", always_embed=True, leveloffset=None)}
+
+[${include("onboarding.adoc")}]
+[${include("quality.adoc")}]
+[${include("principsOfTesting.adoc")}]
+[${include("lifeCircle.adoc")}]
+[${include("lifeCircleOfTesting.adoc")}]
+[${include("requirements.adoc")}]
+[${include("documentation.adoc")}]
+[${include("tms.adoc")}]
+[${include("typesOfTesting.adoc")}]
+[${include("levelsOfTesting.adoc")}]
+[${include("uml.adoc")}]
+[${include("testDesign.adoc")}]
+[${include("internet.adoc")}]
+[${include("postman.adoc")}]
+[${include("webGui.adoc")}]
+[${include("html.adoc")}]
+[${include("dataBase.adoc")}]
+[${include("api.adoc")}]
+[${include("restSoap.adoc")}]
+[${include("clientServerArchitecture.adoc")}]
+[${include("testingWeb.adoc")}]
+[${include("sniffer.adoc")}]
+[${include("mobileTesting.adoc")}]
+[${include("loadTesting.adoc")}]
+[${include("securityTesting.adoc")}]
+[${include("autoTesting.adoc")}]
+[${include("usefulApps.adoc")}]

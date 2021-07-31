@@ -1,5 +1,5 @@
 :stylesheet: ../styles.css
-= Part 1 | Topic 2
+= Jira
 
 ${include("../_header.adoc", always_embed=True, leveloffset=None)}
 

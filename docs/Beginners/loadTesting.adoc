@@ -1,0 +1,6 @@
+:stylesheet: ../styles.css
+= Нагрузочное и стресс-тестирование
+
+${include("../_header.adoc", always_embed=True, leveloffset=None)}
+
+Some content

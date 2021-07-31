@@ -1,0 +1,21 @@
+:stylesheet: ../styles.css
+= Автоматизация тестирования при помощи Postman
+
+${include("../_header.adoc", always_embed=True, leveloffset=None)}
+
+[${include("../Beginners/api.adoc")}]
+[${include("../Beginners/restSoap.adoc")}]
+[${include("testRest.adoc")}]
+[${include("testSoap.adoc")}]
+[${include("authorization.adoc")}]
+[${include("collection.adoc")}]
+[${include("environment.adoc")}]
+[${include("requestResponse.adoc")}]
+[${include("testScripts.adoc")}]
+[${include("firstTests.adoc")}]
+[${include("schema.adoc")}]
+[${include("mocks.adoc")}]
+[${include("monitor.adoc")}]
+[${include("git.adoc")}]
+[${include("newman.adoc")}]
+[${include("examples.adoc")}]
