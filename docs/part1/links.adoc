@@ -1,5 +1,5 @@
 :stylesheet: ../styles.css
-= Part 1 | Links
+= Part 1 | Links ;)
 
 ${include("../_header.adoc", always_embed=True, leveloffset=None)}
 
